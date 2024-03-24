@@ -26,7 +26,7 @@ public class SpriteMovement : MonoBehaviour
        if (horizontalInput <0)
         { m_Animator.SetTrigger("WalkLeft");}
 
-        if (horizontalInput > 0)
+        if (horizontalInput >0)
         { m_Animator.SetTrigger("WalkRight"); }
     }
 }
